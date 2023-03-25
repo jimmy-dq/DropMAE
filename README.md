@@ -17,14 +17,14 @@ If you find our work useful in your research, please consider citing:
 
 ## Overall Architecture
 <p align="left">
-  <img src="https://github.com/jimmy-dq/DropMAE/blob/main/figs_paper/pipeline.png" width="720">
+  <img src="https://github.com/jimmy-dq/DropMAE/blob/main/figs_paper/pipeline.png" width="480">
 </p>
 
 
 ## Frame Reconstruction Results.
 * DropMAE leverages more temporal cues for reconstruction.
 <p align="left">
-  <img src="https://github.com/jimmy-dq/DropMAE/blob/main/figs_paper/reconstruction_results.png" width="720">
+  <img src="https://github.com/jimmy-dq/DropMAE/blob/main/figs_paper/reconstruction_results.png" width="480">
 </p>
 
 
