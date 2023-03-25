@@ -5,7 +5,7 @@ The pre-trained models, fine-tuned models and codes will be coming soon!
 
 ## Overall Architecture
 <p align="left">
-  <img src="https://github.com/jimmy-dq/DropMAE/blob/main/figs_paper/pipeline.png" width="840">
+  <img src="https://github.com/jimmy-dq/DropMAE/blob/main/figs_paper/pipeline.png" width="720">
 </p>
 
 ------
