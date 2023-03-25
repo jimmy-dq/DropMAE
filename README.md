@@ -3,6 +3,8 @@ The codes for CVPR 2023 paper 'DropMAE: Masked Autoencoders with Spatial-Attenti
 
 The pre-trained models, fine-tuned models and codes will be coming soon!
 
+## Overall Architecture
+
 ------
 
 If you find our work useful in your research, please consider citing:
