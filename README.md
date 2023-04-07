@@ -30,7 +30,7 @@ If you find our work useful in your research, please consider citing:
 ### Catalog
 
 - [x] Pre-training Code
-- [ ] Pre-trained Models 
+- [x] Pre-trained Models 
 - [ ] Fine-tuning Code
 - [ ] Fine-tuned Models
 
@@ -63,6 +63,22 @@ python -m torch.distributed.launch --nproc_per_node=8 --nnodes=8 \
 - `P` is the spatial-attention dropout ratio for DropMAE. 
 - `data_path` indicates the Kinetics (e.g., K400 and K700) training video folder path.
 - The exact same hyper-parameters and configs (initialization, augmentation, etc.) are used in our implementation w/ MAE.
+
+
+## Pre-trained Models
+* We also provide the pre-trained models (ViT-Base) on K400 and K800 datasets.
+* Conviniently, you could try your tracking model w/ our pre-trained models as the initialization weights for improving downstream performance.
+<table><tbody>
+<!-- START TABLE -->
+<!-- TABLE HEADER -->
+<th valign="bottom"></th>
+<th valign="bottom">K400-1600E</th>
+<th valign="bottom">K700-800E</th>
+<!-- TABLE BODY -->
+<tr><td align="left">pre-trained checkpoint</td>
+<td align="center"><a href="https://drive.google.com/file/d/1vB8YjPSPybImP1cJZmV2fknKaT8ha6JH/view?usp=share_link">download</a></td>
+<td align="center"><a href="https://drive.google.com/file/d/1qMuBJtNIQQ-NCz98Pig72YVKQdasc49h/view?usp=share_link">download</a></td>
+</tbody></table>
 
 
 
