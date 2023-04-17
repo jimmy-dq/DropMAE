@@ -1,7 +1,7 @@
 # DropMAE
 The codes for our CVPR 2023 paper 'DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks'. [[Link]](https://arxiv.org/pdf/2304.00571.pdf)
 
-The fine-tuning models and codes on VOT&VOS will be coming soon!
+The fine-tuning models and codes on VOS will be coming soon!
 ------
 
 If you find our work useful in your research, please consider citing:
@@ -79,6 +79,18 @@ python -m torch.distributed.launch --nproc_per_node=8 --nnodes=8 \
 <td align="center"><a href="https://drive.google.com/file/d/1vB8YjPSPybImP1cJZmV2fknKaT8ha6JH/view?usp=share_link">download</a></td>
 <td align="center"><a href="https://drive.google.com/file/d/1qMuBJtNIQQ-NCz98Pig72YVKQdasc49h/view?usp=share_link">download</a></td>
 </tbody></table>
+
+## Fine-tuning on VOT
+* The OSTrack w/ our DropMAE pre-trained models can achieve state-of-the-art performance on existing popular tracking benchmarks.
+
+| Tracker     | GOT-10K (AO) | LaSOT (AUC) | LaSOT (AUC) | TrackingNet (AUC) | TNL2K(AUC) |
+|:-----------:|:------------:|:-----------:|:-----------:|:-----------------:|:-----------:|
+| DropTrack-K700-ViTBase | 75.9         | 71.8        | 52.7        | 84.1              | 56.9        |
+
+* The detailed fine-tuning codes && models can be found in our [DropTrack](https://github.com/botaoye/OSTrack) repository.
+
+## Fine-tuning on VOS (TBD)
+
 
 
 
