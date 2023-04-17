@@ -89,7 +89,7 @@ python -m torch.distributed.launch --nproc_per_node=8 --nnodes=8 \
 |:-----------:|:------------:|:-----------:|:-----------:|:-----------------:|:-----------:|
 | DropTrack-K700-ViTBase | 75.9         | 71.8        | 52.7        | 84.1              | 56.9        |
 
-* The detailed fine-tuning codes && models can be found in our [DropTrack](https://github.com/botaoye/OSTrack) repository.
+* The detailed fine-tuning codes && models can be found in our [DropTrack](https://github.com/jimmy-dq/DropTrack) repository.
 
 ## Fine-tuning on VOS (TBD)
 
