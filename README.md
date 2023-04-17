@@ -1,5 +1,5 @@
 # DropMAE
-The codes for our CVPR 2023 paper 'DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks'. [[Link]](https://arxiv.org/pdf/2304.00571.pdf)
+🌟: The codes for our CVPR 2023 paper 'DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks'. [[Link]](https://arxiv.org/pdf/2304.00571.pdf)
 
 The fine-tuning models and codes on VOS will be coming soon!
 ------
@@ -31,8 +31,10 @@ If you find our work useful in your research, please consider citing:
 
 - [x] Pre-training Code
 - [x] Pre-trained Models 
-- [ ] Fine-tuning Code
-- [ ] Fine-tuned Models
+- [x] Fine-tuning Code for VOT
+- [x] Fine-tuned Models for VOT
+- [ ] Fine-tuning Code for VOS
+- [ ] Fine-tuned Models for VOS
 
 ## Environment setup
 * This repo is a modification based on the [MAE repo](https://github.com/facebookresearch/mae). Installation follows that repo. You can also check our requirements file. 
