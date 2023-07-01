@@ -33,8 +33,8 @@ If you find our work useful in your research, please consider citing:
 - [x] Pre-trained Models 
 - [x] Fine-tuning Code for VOT
 - [x] Fine-tuned Models for VOT
-- [ ] Fine-tuning Code for VOS
-- [ ] Fine-tuned Models for VOS
+- [x] Fine-tuning Code for VOS
+- [x] Fine-tuned Models for VOS
 
 ## Environment setup
 * This repo is a modification based on the [MAE repo](https://github.com/facebookresearch/mae). Installation follows that repo. You can also check our requirements file. 
@@ -92,6 +92,7 @@ python -m torch.distributed.launch --nproc_per_node=8 --nnodes=8 \
 * The detailed fine-tuning codes && models can be found in our [DropTrack](https://github.com/jimmy-dq/DropTrack) repository.
 
 ## Fine-tuning on VOS (TBD)
+* The detailed VOS fine-tuning can be found in our [DropSeg](https://github.com/jimmy-dq/DropSeg)https://github.com/jimmy-dq/DropSeg) repository.
 
 
 
