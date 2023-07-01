@@ -1,8 +1,8 @@
 # DropMAE
 🌟 The codes for our CVPR 2023 paper 'DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks'. [[Link]](https://arxiv.org/pdf/2304.00571.pdf)
 
-The fine-tuning models and codes on VOS will be coming soon!
-------
+
+
 
 If you find our work useful in your research, please consider citing:
 
