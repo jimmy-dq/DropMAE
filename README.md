@@ -67,7 +67,7 @@ python -m torch.distributed.launch --nproc_per_node=8 --nnodes=8 \
 - The exact same hyper-parameters and configs (initialization, augmentation, etc.) are used in our implementation w/ MAE.
 
 ## Training logs
-The pre-training logs of [K400-1600E](https://github.com/jimmy-dq/DropMAE/blob/main/k400_1600E_training_log.txt) and [K700-800](https://github.com/jimmy-dq/DropMAE/blob/main/k700_800E_training_log.txt) pre-training are also provided.
+The pre-training logs of [K400-1600E](https://github.com/jimmy-dq/DropMAE/blob/main/k400_1600E_training_log.txt) and [K700-800E](https://github.com/jimmy-dq/DropMAE/blob/main/k700_800E_training_log.txt) are provided.
 
 
 ## Pre-trained Models
