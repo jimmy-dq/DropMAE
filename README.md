@@ -66,6 +66,9 @@ python -m torch.distributed.launch --nproc_per_node=8 --nnodes=8 \
 - `data_path` indicates the Kinetics (e.g., K400 and K700) training video folder path.
 - The exact same hyper-parameters and configs (initialization, augmentation, etc.) are used in our implementation w/ MAE.
 
+## Training logs
+The pre-training logs of [K400-1600E](https://github.com/jimmy-dq/DropMAE/blob/main/k400_1600E_training_log.txt) and [K700-800](https://github.com/jimmy-dq/DropMAE/blob/main/k700_800E_training_log.txt) pre-training are also provided.
+
 
 ## Pre-trained Models
 * We also provide the pre-trained models (ViT-Base) on K400 and K800 datasets.
@@ -91,8 +94,8 @@ python -m torch.distributed.launch --nproc_per_node=8 --nnodes=8 \
 
 * The detailed fine-tuning codes && models can be found in our [DropTrack](https://github.com/jimmy-dq/DropTrack) repository.
 
-## Fine-tuning on VOS (TBD)
-* The detailed VOS fine-tuning can be found in our [DropSeg](https://github.com/jimmy-dq/DropSeg)https://github.com/jimmy-dq/DropSeg) repository.
+## Fine-tuning on VOS
+* The detailed VOS fine-tuning can be found in our [DropSeg](https://github.com/jimmy-dq/DropSeg) repository.
 
 
 
