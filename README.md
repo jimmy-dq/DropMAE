@@ -40,7 +40,7 @@ If you find our work useful in your research, please consider citing:
 * This repo is a modification based on the [MAE repo](https://github.com/facebookresearch/mae). Installation follows that repo. You can also check our requirements file. 
 
 ## Dataset Download
-* In the dropmae pre-training, we mainly use Kinetics Datasets, which can be download in this [Link](https://www.deepmind.com/open-source/kinetics). We use its training raw videos (*.mp4) for training. 
+* In the dropmae pre-training, we mainly use Kinetics Datasets, which can be download in this [Link](https://www.deepmind.com/open-source/kinetics). We use its training raw videos (*.mp4) for training. The detailed download instruction can also be found [here](https://github.com/cvdfoundation/kinetics-dataset).
 
 ## DropMAE pre-training
 
